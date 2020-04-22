@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "azure.keyvault.uri",
+      "type": "java.lang.String",
+      "description": "Azure Key Vault URI eg. https://spring-cloud-config.vault.azure.net."
+  }
+] }

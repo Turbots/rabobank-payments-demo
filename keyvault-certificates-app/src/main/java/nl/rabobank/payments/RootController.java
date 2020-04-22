@@ -22,6 +22,8 @@ public class RootController {
 
     @GetMapping
     public List<String> getRoot() throws IOException {
-        return Files.list(Paths.get(homeDirectory + File.separator + "certificates")).map(Path::toString).collect(Collectors.toList());
+        return Files.list(Paths.get(homeDirectory + File.separator + "certificates"))
+                .map(Path::toString)
+                .collect(Collectors.toList());
     }
 }

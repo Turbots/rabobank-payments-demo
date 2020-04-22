@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class CredhubKeyvaultDemoApplication {
+public class KeyVaultCertificatesApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CredhubKeyvaultDemoApplication.class, args);
+		SpringApplication.run(KeyVaultCertificatesApp.class, args);
 	}
 
 }

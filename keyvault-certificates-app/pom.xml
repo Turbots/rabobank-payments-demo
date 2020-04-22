@@ -9,10 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>nl.rabobank.payments</groupId>
-    <artifactId>credhub-keyvault-demo</artifactId>
+    <artifactId>keyvault-certificates-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>credhub-keyvault-demo</name>
-    <description>Demo project showing integration between Spring Cloud Config and Azure Key Vault</description>
+    <name>keyvault-certificates-app</name>
+    <description>Demo project showing integration between Spring Cloud Config and Azure Key Vault Certificates
+    </description>
 
     <properties>
         <java.version>1.8</java.version>
