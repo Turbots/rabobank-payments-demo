@@ -1,3 +1,0 @@
-spring:
-  application:
-    name: keyvault-secrets-app

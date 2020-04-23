@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class RootController {
 
-    @Value("${supersecret:nothing}")
+    @Value("${mysecret2:nothing}")
     private String superSecret;
 
     @GetMapping
